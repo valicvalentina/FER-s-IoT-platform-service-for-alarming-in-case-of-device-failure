@@ -1,0 +1,65 @@
+###
+4028b8818853b8d1018853c187000002
+SAP01
+---
+from(bucket:"telegraf")
+  |> range(start: -1h)
+  |> filter(fn: (r) => r["_measurement"] == "TC")
+  |> filter(fn: (r) => r["id_wasp"] == "SAP02")
+---
+u1
+Nema dostupnih mjerenja za TC!
+6023056715:AAG6tNbl-9IYUtOfirZHhnjoHstlYU4rwek;6272648058
+telegram
+###
+4028b8818853b8d1018853c187000003
+SAP01
+---
+from(bucket:"telegraf")
+  |> range(start: -10h)
+  |> filter(fn: (r) => r["_measurement"] == "BAT")
+  |> filter(fn: (r) => r["id_wasp"] == "SAP01")
+---
+u1
+Nema dostupnih mjerenja za BAT!
+6023056715:AAG6tNbl-9IYUtOfirZHhnjoHstlYU4rwek;6272648058
+telegram
+###
+4028b8818853b8d1018853c187000004
+SAP01
+---
+from(bucket:"telegraf")
+  |> range(start: -78h)
+  |> filter(fn: (r) => r["_measurement"] == "HUM")
+  |> filter(fn: (r) => r["id_wasp"] == "SAP01")
+---
+u1
+Nema dostupnih mjerenja za HUM!
+https://ferhr.webhook.office.com/webhookb2/1e8c14ec-a33b-494a-ab60-53390655714d@ca71eddc-cc7b-4e5b-95bd-55b658e696be/IncomingWebhook/eab3dc0cffb7497ea6908093517fd0ba/ead2ed2e-d921-4d63-931d-47a2644ddc8e
+teams
+###
+4028b8818853b8d1018853c187000005
+SAP01
+---
+from(bucket:"telegraf")
+  |> range(start: -6h)
+  |> filter(fn: (r) => r["_measurement"] == "LW")
+  |> filter(fn: (r) => r["id_wasp"] == "SAP01")
+---
+u1
+Nema dostupnih mjerenja za LW!
+https://ferhr.webhook.office.com/webhookb2/1e8c14ec-a33b-494a-ab60-53390655714d@ca71eddc-cc7b-4e5b-95bd-55b658e696be/IncomingWebhook/eab3dc0cffb7497ea6908093517fd0ba/ead2ed2e-d921-4d63-931d-47a2644ddc8e
+teams
+###
+4028b8818853b8d1018853c187000003
+SAP01
+---
+from(bucket:"telegraf")
+  |> range(start: -10h)
+  |> filter(fn: (r) => r["_measurement"] == "BAT")
+  |> filter(fn: (r) => r["id_wasp"] == "SAP01")
+---
+u1
+Nema dostupnih mjerenja za BAT!
+6023056715:AAG6tNbl-9IYUtOfirZHhnjoHstlYU4rwek;6272648058
+telegram

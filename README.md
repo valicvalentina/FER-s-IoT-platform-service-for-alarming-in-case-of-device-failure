@@ -1,4 +1,5 @@
-ZAVRŠNI RAD 
+ZAVRŠNI RAD
+
 Usluga u FER-ovoj IoT platformi za alarmiranje u slučaju kvara uređaja
 Zagreb: Sveučilište u Zagrebu, Fakultet elektrotehnike i računarstva, 2023
 
@@ -8,6 +9,7 @@ Microsoft Teams i Telegramom. Korisnici mogu postaviti alarme na temelju nedosta
 korisnike o problemima u IoT sustavima.
 
 FINAL THESIS
+
 FER's IoT platform service for alarming in case of device failure
 Zagreb: University of Zagreb, Faculty of Electrical Engineering and Computing, 2023
 
